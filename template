@@ -19,6 +19,12 @@ graph G {
 	throughryeendtokimptonmillpond -- kimptonmill;
 	kimptonmill -- codicotebottom;
 	codicotebottom -- codicote;
+	codicote -- rableyheathroad;
+	rableyheathroad -- newwood;
+	rableyheathrood -- ninningswood;
+	rableyheathroad -- pottersheathroad;
+	pottersheathroad -- heathroad;
+	heathroad -- legsandstockingswood;
 	kimpton -- claggbottomfootpath;
 	claggbottomfootpath -- ayotsaintlawrence;
 	ayotsaintlawrence -- bridehalllanefootpath;
@@ -69,10 +75,11 @@ graph G {
 	woolmergreen -- knebworth;
 	knebworth -- stevenage;
 	stevenage -- hitchin;
-	greatnorthroad -- thedrivethenheathroad;
-	thedrivethenheathroad -- legsandstockingswood;
-	robberybottomlaneetc -- wattonatstone;
-	robberybottomlaneetc -- nwsestockinggrovefootpath;
+	greatnorthroad -- theavenue;
+	heathroad -- legsandstockingswood;
+	theavenue -- heathroad;
+	danesburyparkroad -- theavenue;
+	codicote -- danesburyparkroad;
 
 	greatercaptainswood -- landtowestofgreatercaptainswood;
 	b195 -- landtowestofgreatercaptainswood;
