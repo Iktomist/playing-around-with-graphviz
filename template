@@ -1,0 +1,107 @@
+
+graph G {
+	
+	hitchin -- stevenage;
+	hitchin -- whitwell;
+	stevenage -- knebworth;
+	knebworth -- woolmergreen;
+	woolmergreen -- mardleyburyroad;
+	mardleyburyroad -- whitehorselane;
+	whitehorselane -- robberybottomlane;
+	robberybottomlane -- burnhamgreen;
+	burnhamgreen -- footpathpastcookswood;
+	burnhamgreen -- footpaththroughlittlehillfootwood;
+
+	kimpton -- parkdovehousewoodsfootpath;
+	parkdovehousewoodsfootpath -- cuckoldscrossfootpath;
+	cuckoldscrossfootpath -- xmasandxmhillwoodfootpath;
+	xmasandxmhillwoodfootpath -- throughryeendtokimptonmillpond;
+	throughryeendtokimptonmillpond -- kimptonmill;
+	kimptonmill -- codicotebottom;
+	codicotebottom -- codicote;
+	kimpton -- claggbottomfootpath;
+	claggbottomfootpath -- ayotsaintlawrence;
+	ayotsaintlawrence -- bridehalllanefootpath;
+	ayotsaintlawrence -- oldchurchruins;
+	ayotsaintlawrence -- 
+	bridehalllanefootpath -- dowdellfishbladderwood;
+	dowdellfishbladderwood -- crossroadpastbowles;
+	crossroadpastbowles -- ayotgreenacrossthea1;
+	ayotgreenacrossthea1 -- sherradsfootpaths;
+	sherradsfootpaths -- dismantledrailway;
+	dismantledrailway -- templewoodgreenspace;
+	templewoodgreenspace -- digswellroad;
+	digswellroad -- digswellpark;
+	digswellpark -- digswelllake;
+	digswellroad -- digswelllake;
+	digswelllake -- digswellparkroad;
+	digswellparkroad -- tewinwaterpark;
+	digswellparkroad -- hertfordroad;
+	tewinwaterpark -- dawleywoodnorthfootpath;
+	tewinwaterpark -- dawleywoodsouthfootpath;
+	dawleywoodsouthfootpath -- westleywood;
+	dawleywoodsouthfootpath -- tewinuppergreen;
+	dawleywoodnorthfootpath -- pennyfatherslane;
+	pennyfatherslane -- harmergreenlane;
+	harmergreenlane -- barneswoodfootpaths;
+	harmergreenlane -- harmergreenwoodfootpaths;
+	harmergreenlane -- harmergreen;
+	harmergreenlane -- meadowssouthofharmergreenwood;
+	harmergreenwoodfootpathbranch -- greatnorthroad;
+	greatnorthroad -- robberybottomlane;
+	robberybottomlane -- whitehorselane;
+	mardleyburyroad -- whitehorselane;
+	mardleyburyroad -- datchworthgreen;
+	datchworthgreen -- datchworthggreenlane;
+	datchworthgreen -- hawkinshallpond;
+	hawkinshallpond -- stockinggrove;
+	stockinggrove -- wattonatstone;
+	datchworthgreen -- backlanewood;
+	backlanewood -- bramfieldwoods;
+	bramfieldwoods -- perrywoodlane;
+	perrywoodlane -- wattonatstone;
+	bramfieldwoods -- brickgroundwood;
+	brickgroundwood -- tewinwoodtown;
+	tewinwoodtown -- firswalk;
+	tewinwoodtown -- tewinuppergreen;
+
+	whitehorselane -- woolmergreen;
+	woolmergreen -- knebworth;
+	knebworth -- stevenage;
+	stevenage -- hitchin;
+	greatnorthroad -- thedrivethenheathroad;
+	thedrivethenheathroad -- legsandstockingswood;
+	robberybottomlaneetc -- wattonatstone;
+	robberybottomlaneetc -- nwsestockinggrovefootpath;
+
+	greatercaptainswood -- landtowestofgreatercaptainswood;
+	b195 -- landtowestofgreatercaptainswood;
+	b195 -- colegreenlane;
+	colegreenlane -- roundaboutsouthtohowlandsandcommonslnr;
+
+	whitwell -- codicoteroad;
+	codicoteroad -- nodewood;
+	codicoteroad -- codicote;
+	codicote -- saintalbansroad;
+	saintalbansroad -- dowdellfishbladderwood;
+	saintalbansroad -- wheathampstead;
+
+	wheathampstead -- pathalongriverlea;
+
+	brocketparkfootpath -- hammondslane;
+	hammondslane -- titnolswoodfootpath;
+	hammondslane -- symondshydegreatwoodfootpath;
+	symondshydegreatwoodfootpath -- footpathpastsleevehallwood;
+	footpathpastsleevehallwood -- coopersgreensandgravelpits;
+	coopersgreensandgravelpits -- hatfieldroada1057;
+ 
+	burnhamgreen -- tewin;
+	tewin -- bramfieldparkwoodpathnetwork;	
+
+	wheathampstead -- wheathampsteadroadinharpenden;
+	wheathampstead -- wheathampsteadlocalnationalreserve;
+	
+        overlap=false;
+        splines=true;
+}
+
