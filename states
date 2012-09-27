@@ -1,0 +1,205 @@
+
+graph G {
+Alabama;
+Arizona;
+Arkansas;
+California;
+Colorado;
+Connecticut;
+Delaware;
+Florida;
+Georgia;
+Idaho;
+Illinois;
+Indiana;
+Iowa;
+Kansas;
+Kentucky;
+Louisiana;
+Maine;
+Maryland;
+Massachusetts;
+Michigan;
+Minnesota;
+Mississippi;
+Missouri;
+Montana;
+Nebraska;
+Nevada;
+NewHampshire [label="New Hampshire"];
+NewJersey [label="New Jersey"];
+NewMexico [label="New Mexico"];
+NewYork [label="New York"];
+NorthCarolina [label="North Carolina"];
+NorthDakota [label="North Dakota"];
+Ohio;
+Oklahoma;
+Oregon;
+Pennsylvania;
+RhodeIsland [label="Rhode Island"];
+SouthCarolina [label="South Carolina"];
+SouthDakota [label="South Dakota"];
+Tennessee;
+Texas;
+Utah;
+Vermont;
+Virginia;
+Washington;
+WestVirginia [label="West Virginia"];
+Wisconsin;
+Wyoming;
+
+        Alabama -- Tennessee;
+        Alabama -- Georgia;
+        Alabama -- Florida;
+        Alabama -- Mississippi;
+
+        Arizona -- Utah;
+        Arizona -- Colorado [style="dotted"];
+        Arizona -- NewMexico;
+        Arizona -- California;
+        Arizona -- Nevada;
+
+        Arkansas -- Missouri;
+        Arkansas -- Tennessee;
+        Arkansas -- Mississippi;
+        Arkansas -- Louisiana;
+        Arkansas -- Texas;
+        Arkansas -- Oklahoma;
+
+        California -- Oregon;
+        California -- Nevada;
+
+        Colorado -- Wyoming;
+        Colorado -- Nebraska;
+        Colorado -- Kansas;
+        Colorado -- Oklahoma;
+        Colorado -- NewMexico;
+        Colorado -- Utah;
+
+        Connecticut -- Massachusetts;
+        Connecticut -- RhodeIsland;
+        Connecticut -- NewYork;
+
+        Delaware -- Pennsylvania;
+        Delaware -- NewJersey;
+        Delaware -- Maryland;
+
+        Florida -- Georgia;
+
+        Georgia -- Tennessee;
+        Georgia -- NorthCarolina;
+        Georgia -- SouthCarolina;
+
+        Idaho -- Montana;
+        Idaho -- Wyoming;
+        Idaho -- Utah;
+        Idaho -- Nevada;
+        Idaho -- Oregon;
+        Idaho -- Washington;
+
+        Illinois -- Wisconsin;
+        Illinois -- Indiana;
+        Illinois -- Kentucky;
+        Illinois -- Missouri;
+        Illinois -- Iowa;
+
+        Indiana -- Michigan;
+        Indiana -- Ohio;
+        Indiana -- Kentucky;
+
+
+        Iowa -- Minnesota;
+        Iowa -- Wisconsin;
+        Iowa -- Missouri;
+        Iowa -- Nebraska;
+        Iowa -- SouthDakota;
+
+        Kansas -- Nebraska;
+        Kansas -- Missouri;
+        Kansas -- Oklahoma;
+
+        Kentucky -- Ohio;
+        Kentucky -- WestVirginia;
+        Kentucky -- Virginia;
+        Kentucky -- Tennessee;
+        Kentucky -- Missouri;
+
+        Louisiana -- Mississippi;
+        Louisiana -- Texas;
+
+        Maine -- NewHampshire;
+
+        Maryland -- Pennsylvania;
+        Maryland -- Virginia;
+        Maryland -- WestVirginia;
+
+        Massachusetts -- Vermont;
+        Massachusetts -- NewHampshire;
+        Massachusetts -- RhodeIsland;
+        Massachusetts -- NewYork;
+
+        Michigan -- Ohio;
+        Michigan -- Wisconsin;
+
+        Minnesota -- Wisconsin;
+        Minnesota -- SouthDakota;
+        Minnesota -- NorthDakota;
+
+        Mississippi -- Tennessee;
+
+        Missouri -- Tennessee;
+        Missouri -- Oklahoma;
+        Missouri -- Nebraska;
+
+        Montana -- NorthDakota;
+        Montana -- SouthDakota;
+        Montana -- Wyoming;
+
+        Nebraska -- SouthDakota;
+        Nebraska -- Wyoming;
+
+        Nevada -- Oregon;
+        Nevada -- Utah;
+
+
+        NewHampshire -- Vermont;
+
+        NewJersey -- NewYork;
+        NewJersey -- Pennsylvania;
+
+        NewMexico -- Oklahoma;
+        NewMexico -- Texas;
+        NewMexico -- Utah [style="dotted"];
+
+        NewYork -- Vermont;
+        NewYork -- RhodeIsland;
+        NewYork -- Pennsylvania;
+
+        NorthCarolina -- Virginia;
+        NorthCarolina -- SouthCarolina;
+        NorthCarolina -- Tennessee;
+
+        NorthDakota -- SouthDakota;
+
+        Ohio -- Pennsylvania;
+        Ohio -- WestVirginia;
+
+        Oklahoma -- Texas;
+
+        Oregon -- Washington;
+
+        Pennsylvania -- WestVirginia;
+
+        SouthDakota -- Wyoming;
+
+        Tennessee -- Virginia;
+
+        Utah -- Wyoming;
+
+        Virginia -- WestVirginia;
+
+        overlap=false;
+        splines=true;
+}
+
